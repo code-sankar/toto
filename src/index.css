@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+
+body {
+    @apply antialiased;
+  }
+  
+  /* Custom checkbox styling */
+  input[type="checkbox"] {
+    @apply w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500;
+  }
+  
+  /* Priority indicator colors */
+  .bg-red-600 { background-color: #dc2626; }
+  .bg-yellow-500 { background-color: #eab308; }
+  .bg-green-600 { background-color: #16a34a; }
